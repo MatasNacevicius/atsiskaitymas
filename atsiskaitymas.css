@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  border-bottom: solid black;
+  border-top: solid black;
+  height: 50px;
+  justify-content: space-between;
+  z-index: 10;
+  padding: 0 20px;
+  left: 0;
+  right: 0;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.pradzia {
+  display: flex;
+  align-items: center;
+}
+.linkai {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+a:visited {
+  color: black;
+}
+.background{
+  background-image: url("https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_4288,h_2412,c_limit/BlackForest-Germany-GettyImages-147180370.jpg");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    background-color: azure;
+}
+.inlogo{
+    width: 350px;
+    height: 300px;
+}
