@@ -5,6 +5,7 @@ body{
 header {
   display: flex;
   position: fixed;
+  background-color: green;
   top: 0;
   border-bottom: solid black;
   border-top: solid black;
@@ -55,4 +56,208 @@ a:visited {
 .inlogo{
     width: 350px;
     height: 300px;
+}
+.gyd{
+  text-align: center;
+  padding: 50px;
+}
+.conteiner{
+  display: flex;
+  
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+.pav{
+  height: 150px;
+  width: 200px;
+}
+.bendras{
+  position: relative;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  padding: 10px;
+  overflow-wrap: break-word;
+}
+.nyk{
+  text-align: center;
+  padding: 50px;
+}
+.conteiner2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pirmas1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bendras1{
+  width: 250px;
+  height: auto;
+  padding: 10px;
+}
+.text1{
+  overflow-wrap: break-word;
+}
+.mis{
+  text-align: center;
+  padding: 50px;
+}
+.pav3{
+  height: 400px;
+  width: 96%;
+  padding: 0 50px;
+  position: relative;
+}
+.conteiner3{
+  display: flex;
+}
+.text3{
+  width: 29%;
+  padding: 0 50px;
+  overflow-wrap: break-word;
+}
+.conteiner4{
+  display: flex;
+  padding: 50px 10px 0 10px;
+  justify-content: space-between;
+}
+@media (max-width: 760px){
+  body{
+    margin: 0;
+    padding: 0;
+}
+header {
+  display: flex;
+  top: 0;
+  border-bottom: solid black;
+  border-top: solid black;
+  height: 50px;
+  z-index: 10;
+  left: 0;
+  right: 0;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.pradzia {
+  display: flex;
+  align-items: center;
+}
+.pradzia h1{
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.linkai {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+a:visited {
+  color: black;
+}
+.background{
+  background-image: url("https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_4288,h_2412,c_limit/BlackForest-Germany-GettyImages-147180370.jpg");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: auto;
+    margin-top: 56px;
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: auto;
+    height: 500px;
+    width: 700px;
+    background-color: azure;
+}
+.inlogo{
+    width: 350px;
+    height: 300px;
+}
+.gyd{
+  text-align: center;
+  padding: 50px;
+}
+.conteiner{
+  display: flex;
+  flex-direction: column;
+}
+.pav{
+  height: 150px;
+  width: 200px;
+}
+.text{
+  padding: 10px;
+  overflow-wrap: break-word;
+}
+.nyk{
+  text-align: center;
+  padding: 50px;
+}
+.conteiner2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pirmas1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bendras1{
+  width: 250px;
+  height: auto;
+  padding: 10px;
+}
+.text1{
+  overflow-wrap: break-word;
+}
+.mis{
+  text-align: center;
+  padding: 50px;
+}
+.pav3{
+  height: 400px;
+  width: 96%;
+  padding: 0 50px;
+  position: relative;
+}
+.conteiner3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text3{
+  width: 29%;
+  padding: 0 50px;
+  overflow-wrap: break-word;
+}
+.conteiner4{
+  display: flex;
+  padding: 50px 10px 0 10px;
+  justify-content: space-between;
+}
 }
